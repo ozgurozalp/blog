@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Aleo|Roboto|PT+Sans');
+@import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
+body{
+    overflow-x: hidden;
+}
+
+.navbar-brand:hover, .nav-item:hover{
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+.form-control:focus{
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+#fiyatlar div.fiyat:hover{
+    cursor: pointer;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.bg-renk {
+    background: #F8D353;
+    background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
+    background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
+    background: linear-gradient(top left, #F8D353, #FF5C5A);
+}
+.pricing-card-title{
+    font-family: 'Roboto', sans-serif;
+}
+.fa-whatsapp {
+    color : #29a71a;
+}
+.pointer{
+    cursor: pointer;
+}
+.contact-text{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 50px;
+}
+.fontlu-text{
+	font-family: 'Aleo', serif;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.yorumlar {
+    font-family: 'Aleo', serif;
+    font-size: 35px;
+}
+
+.yorumYap {
+    font-family: 'Aleo', serif;
+    font-size: 35px;
+}
+
+#particles-js{
+    position: fixed;
+    width: 100%; 
+    height: 100%;
+}
+.jump {
+    animation: jump 2.3s ease-in-out infinite;
+    transform-origin: 50% 100%;
+    z-index:2;
+}
+@keyframes jump {
+    10% {
+        transform: scale(1.2,0.8);
+    }
+    24%, 26% {
+        transform: translateY(-20vh) scale(1,1.001);
+    }
+    40% {
+        transform: translateY(0) scale(1,0.999);
+    }
+    44% {
+        transform: translateY(0) scale(1.05,0.97);
+    }
+    56% {
+        transform: translateY(-6vh) scale(1.01,1);
+    }
+    70% {
+        transform: translateY(0) scale(1,1);
+    }
+}
+
+.yeniFont{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+        rgba(255, 255, 255, .2) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, .2) 50%,
+        rgba(255, 255, 255, .2) 75%,
+        transparent 75%,
+        transparent)
+}

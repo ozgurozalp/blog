@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Özgür ÖZALP - Hoş Geldiniz</title>
+</head>
+<body class="bg-light">
+<div id="particles-js"></div>  
+<div class="container">
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark mt-3 rounded bg-danger mb-2 bg-renk">
+        <a class="navbar-brand text-black-50 font-weight-bold animated" href="index.html">Özgür ÖZALP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item animated">
+                    <a class="nav-link" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item animated">
+                    <a class="nav-link" href="about.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item animated">
+                    <a class="nav-link" href="pricing.html">Fiyatlar</a>
+                </li>
+                <li class="nav-item animated">
+                    <a class="nav-link" href="contact.html">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Menu -->
+    <div class="row mb-5 animated zoomIn">
+        <div class="col-md-12 mb-1">
+            <div class="card">
+                <img src="img/article-img.png" class="card-img-top" alt="Özgür ÖZALP">
+                <div class="card-body">
+                    <div class="p-3">
+                        <h5 class="card-title yeniFont mb-0">VueJS nedir, Neden kullanmalıyız ?</h5>
+                        <p class="mb-2"><small class="text-muted">Özgür ÖZALP - 3 saat önce</small></p>
+                        <p>Merhabalar, bu yazımda size JavaScript Framework'ü olan VueJs hakkında ufak tefek bilgiler vereceğim.</p>
+                        <div class="img-fluid text-center">
+                            <img src="img/logo.png" width="105" alt="VueJS">
+                        </div>
+                        <p>
+                            Eğer benim yazımdan değil de kendi sitesinden bakıp öğrenmek isterseniz diye de buraya VueJs’in kendi 
+                            sitesinin linkini sizler için bırakıyorum 🙂 buraya tıklamanız yeterli
+                        </p>
+                        <ul>
+                            <li>VueJs aslında bir JavaScript Framework’ü dür.</li>
+                            <li>Peki bu VueJS bize neler sağlar ve neden kullanmalıyız ?</li>
+                            <li>Dinamik web siteleri yapmamızı sağlar.</li>
+                            <li>Mobil uygulama tarzında görünümler elde ederiz.</li>
+                            <li>Sitelerimiz hızlı yüklenir kullanıcı dostudur</li>
+                            <li>VueJs’i nasıl sitemizde kullanırız ?</li>
+                        </ul>
+                    </div>        
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 mb-1">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="text-center yorumlar">Yorumlar</h1>
+                    <div class="media">
+                        <img src="img/avatar.png" width="75" class="align-self-start mr-3" alt="kullanıcı resmi">
+                        <div class="media-body">
+                            <h5 class="mt-0 yeniFont">Mustafa Görkem Güven</h5>
+                            <p>Çok güzel bir yazı olmuş devamını dört gözle bekliyorum..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="text-center yorumYap">Yorum Yap</h1>
+                    <form id="commentForm">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Adınız</label>
+                                <input type="text" id="name" class="form-control" placeholder="Adınızı Giriniz" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="surname">Soyadınız</label>
+                                <input type="text" id="surname" class="form-control" placeholder="Soyadınız Giriniz" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="subject">Mail Adresiniz</label>
+                                <input type="text" id="subject" class="form-control" placeholder="Mailinizi Giriniz" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="mesaj">Yorumunuz</label>
+                                <textarea class="form-control" id="mesaj" rows="5" placeholder="Yorumunuzu Giriniz" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group float-right">
+                            <button class="btn btn-outline-info" type="submit">Yorum Yap</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
