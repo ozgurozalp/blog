@@ -26,11 +26,3 @@ $(function(){
     $(".form-control").addClass("animated");
 
 });
-
-setInterval(() => {
-    console.log("%cI Love Eda", "color : #c54fa7; font-size: 3vw; font-family: 'Comic Sans MS';");
-    console.log("");
-},2500);
-
-
-
